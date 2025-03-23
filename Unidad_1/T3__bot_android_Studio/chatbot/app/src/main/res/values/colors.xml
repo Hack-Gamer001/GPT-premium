@@ -1,0 +1,17 @@
+<resources>
+
+    <color name="light_gray">#FFCCCCCC</color>
+    <color name="gray_200">#FFCFCCCC</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimary2">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#212121</color>
+    <color name="chat_bubble_user">#E3F2FD</color>
+    <color name="chat_bubble_bot">#E8F5E9</color>
+
+    <color name="my_light_primary">#0B4804</color>
+</resources>
