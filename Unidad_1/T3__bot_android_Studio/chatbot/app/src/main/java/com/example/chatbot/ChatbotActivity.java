@@ -35,7 +35,7 @@ public class ChatbotActivity extends AppCompatActivity {
     private OkHttpClient httpClient;
     private TextToSpeech textToSpeech;
     private static final int REQUEST_CODE_SPEECH_INPUT = 1000;
-    private static final String API_URL = "https://cac2-2800-4b0-9901-7896-5dbd-57d6-6915-ce53.ngrok-free.app/chat"; // URL de la API
+    private static final String API_URL = "https://1579-2001-1388-5e21-c7bc-5535-6bac-b0af-6dca.ngrok-free.app/chat"; // URL de la API
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,3 +1,10 @@
+## instalar librerias
+
+## pip install fastapi uvicorn pyngrok nest_asyncio pydantic llama-cpp-python 
+## pip install fastapi uvicorn pyngrok nest_asyncio pydantic requests   
+## pip install requests
+
+
 import requests
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -138,7 +145,7 @@ def chat(request: ChatRequest):
         return {"respuesta": "Lo siento, hubo un problema. ¿Podrías intentar con otra pregunta?"}
 
 # Configurar Ngrok con el authtoken
-ngrok.set_auth_token("2uSSF0enMopCBUTjiGeluEXqiJ8_2y38ANX4Ma9na9nM3kTwU")
+ngrok.set_auth_token("2ui17vtgbMrjn2siWw5pXCD4mLX_2wbyY2x8yZyB6dYq3Dk5Z")
 ngrok_tunnel = ngrok.connect(8000)
 print('Public URL:', ngrok_tunnel.public_url)
 
